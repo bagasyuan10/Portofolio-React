@@ -21,7 +21,6 @@ const Contact = () => {
                 transition={{ duration: 1 }}
                 href={`https://wa.me/${CONTACT.phoneNo}`} className="my-4">{CONTACT.phoneNo}</motion.a>
                 <br />
-                <a href={`mailto:${CONTACT.email}`} className="border-b">{CONTACT.email}</a>
             </div>
         </div>
     );

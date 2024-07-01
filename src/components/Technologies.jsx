@@ -1,8 +1,8 @@
 import { RiReactjsLine } from "react-icons/ri"
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si"
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa"
+import { FaPhp } from "react-icons/fa";
+import { FaLaravel } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi"
 import { motion } from "framer-motion";
 
@@ -44,28 +44,28 @@ const Technologies = () => {
                 initial="initial"
                 animate='animate'
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <TbBrandNextjs className="text-7xl"/>
+                    <FaPhp className="text-7xl text-cyan-700"/>
                 </motion.div>
                 <motion.div
                 variants={iconVariants(5)}
                 initial="initial"
                 animate='animate'
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <SiMongodb className="text-7xl text-green-500"/>
+                    <FaLaravel className="text-7xl text-red-500"/>
                 </motion.div>
                 <motion.div
                 variants={iconVariants(2)}
                 initial="initial"
                 animate='animate'
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <DiRedis className="text-7xl text-red-700"/>
+                    <FaHtml5 className="text-7xl text-red-700"/>
                 </motion.div>
                 <motion.div
                 variants={iconVariants(6)}
                 initial="initial"
                 animate='animate'
                 className='rounded-2xl border-4 border-neutral-800 p-4'>
-                    <FaNodeJs className="text-7xl text-green-500"/>
+                    <SiTailwindcss className="text-7xl text-cyan-500"/>
                 </motion.div>
                 <motion.div
                 variants={iconVariants(4)}

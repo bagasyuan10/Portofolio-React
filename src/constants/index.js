@@ -1,7 +1,9 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import exoria from "../assets/projects/Exoria.png"
+import sinicerita from "../assets/projects/Sinicerita.png"
+import stroke from "../assets/projects/Stroke-Sense.png";
+import ellora from "../assets/projects/ELLORA.png";
+import mldp from "../assets/projects/MLDP.png";
+import portofolio from "../assets/projects/Portofolio.jpg";
 
 export const HERO_CONTENT = `As a full-stack developer, I excel at crafting dynamic and scalable web applications that deliver results. With a year of hands-on experience, I master front-end technologies such as React and Next.js, which pair well with powerful back-end solutions such as Node.js, MySQL, PostgreSQL, and MongoDB. My web development journey has been fueled by a constant drive for innovation and a commitment to delivering great user experiences. I am dedicated to using my skills to advance business skills and create innovative digital solutions that exceed expectations.`;
 
@@ -9,68 +11,67 @@ export const ABOUT_TEXT = `I am a enthusiastic and adaptable full stack engineer
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "2024",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "Community service - Ellora",
+    description: `Developed and engineered user-friendly interfaces and robust backend systems for web applications using the Laravel framework, focusing on community service projects. Collaborated closely with backend developers to integrate frontend features with advanced APIs for Ellora Website. Implemented responsive design for enhanced user experience and optimized frontend performance, aiming to set new standards in web development optimization.`,
+    technologies: ["PHP", "Blade", "CSS", "Javascript"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2023 -22024",
+    role: "Full Stack Developer",
+    company: "Exoria Data Store",
+    description: `Build, Develop, and Improve user experience in Exoria Data Store with a full stack approach using Laravel. I deliver beautiful user interface designs and integrate them with powerful backend systems. With expertise in responsive design and frontend performance improvements, I ensure every user has a great experience, optimizing site navigation and speed for maximum comfort and efficiency.`,
+    technologies: ["PHP", "Blade", "CSS", "Javascript"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+  title: "Exoria",
+  image: exoria,
+  description:
+    "Exoria Data Store is a website that offers template creation services and creates websites tailored to customer desires through Customer Personalization (CP) techniques. We understand that every business has unique needs and a different vision, so we are committed to providing fully personalized solutions according to your preferences and goals.",
+  technologies: ["PHP", "Blade", "CSS", "Javascript", "mySQL"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Stroke Sense",
+    image: stroke,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Stroke Sense: Website stroke sensing and evaluation system.",
+      technologies: ["HTML", "Phyton"],
+  },
+  {
+    title: "Ellora",
+    image: ellora,
+    description:
+      "UMKM Information System Handmade Beaded Bracelets (Ellora Beads Bracelet) Website Based.",
+    technologies: ["PHP", "Blade", "CSS", "Javascript", "mySQL"],
+  },
+    {
+    title: "Sini Cerita",
+    image: sinicerita,
+    description:
+      "SiniCerita is a digital platform dedicated to providing mental health education and training, designed to help users understand and manage their mental health better. In this modern era, pressure and stress are part of everyday life, and SiniCerita is here to provide a comprehensive solution that is accessible to everyone.",
+    technologies: ["PHP", "Blade", "CSS", "Javascript", "mySQL"],
+  },
+  {
+    title: "Form of Student Attendance",
+    image: mldp,
+    description:
+      "Presence Development of the MLDP (Measure Of Long Distance Presence) System in the Form of Student Attendance Based on Coordinate Points by Implementing a Global Positioning System",
+    technologies: ["PHP", "Blade", "CSS", "Javascript", "mySQL"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: portofolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "PHP", "Bootstrap"],
   },
 ];
 
 export const CONTACT = {
   address: "Jl. Bend. Sengguruh No.23, Sumbersari, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145",
   phoneNo: "+6287751728755",
-  email: "bagasyuan10@gmail.com",
 };
