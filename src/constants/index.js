@@ -18,7 +18,7 @@ export const EXPERIENCES = [
     technologies: ["PHP", "Blade", "CSS", "Javascript"],
   },
   {
-    year: "2023 -22024",
+    year: "2023 - 2024",
     role: "Full Stack Developer",
     company: "Exoria Data Store",
     description: `Build, Develop, and Improve user experience in Exoria Data Store with a full stack approach using Laravel. I deliver beautiful user interface designs and integrate them with powerful backend systems. With expertise in responsive design and frontend performance improvements, I ensure every user has a great experience, optimizing site navigation and speed for maximum comfort and efficiency.`,
