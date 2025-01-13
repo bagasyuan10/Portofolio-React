@@ -4,12 +4,20 @@ import stroke from "../assets/projects/Stroke-Sense.png";
 import ellora from "../assets/projects/ELLORA.png";
 import mldp from "../assets/projects/MLDP.png";
 import portofolio from "../assets/projects/Portofolio.jpg";
+import bumdes from "../assets/projects/BUMDes.png";
 
 export const HERO_CONTENT = `As a full-stack developer, I excel at crafting dynamic and scalable web applications that deliver results. With a year of hands-on experience, I master front-end technologies such as React and Next.js, which pair well with powerful back-end solutions such as Node.js, MySQL, PostgreSQL, and MongoDB. My web development journey has been fueled by a constant drive for innovation and a commitment to delivering great user experiences. I am dedicated to using my skills to advance business skills and create innovative digital solutions that exceed expectations.`;
 
 export const ABOUT_TEXT = `I am a enthusiastic and adaptable full stack engineer, with the objective of making effective and simple to utilize web applications. With 1 year of proficient involvement, I have aced different cutting edge advances such as Respond, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. At first, my intrigued in web improvement begun from a honest to goodness interest approximately how this innovation works, and has presently gotten to be portion of an advancing career, where I am always learning and prepared to require on modern challenges. I feel most profitable when working in a group and appreciate handling complex issues to provide quality arrangements. Exterior of the world of coding, I too appreciate doing physical exercises, investigating modern innovations, and contributing to valuable open-source ventures. `;
 
 export const EXPERIENCES = [
+  {
+    year: "2024-Now",
+    role: "Admin HKI (Hak Kekayaan Intelektual)",
+    company: "Direktorat Inovasi UM",
+    description: `As an Intellectual Property Rights (IPR) Admin at the Innovation Directorate Building, State University of Malang (UM), I am responsible for managing data filing related to student IPR submissions. My duties include collecting, verifying, and storing documents neatly, both in physical and digital forms, to ensure completeness and administrative order. I also coordinate with students to provide submission guidance, monitor the status of submissions to certification, and work with the Innovation Directorate team to ensure the process runs smoothly. In addition, I make periodic reports related to the number and type of IPR submitted as part of the evaluation and development of the innovation ecosystem on campus. Through this role, I support the protection of students' intellectual works and encourage creativity and innovation at State University of Malang.`,
+    technologies: ["-"],
+  },
   {
     year: "2024",
     role: "Full Stack Developer",
@@ -27,6 +35,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "BUMDes BANGJOZZ",
+    image: bumdes,
+    description:
+      "This project aims to develop a website that will be an information center about Bangeran Village. This website is designed to promote the village's potential, BUMDes (Village-Owned Enterprises) businesses, and superior products produced by the village. With informative and easy-to-use features, this website will be a bridge between the village government, local communities, and outsiders who want to know more about Bangeran Village.",
+    technologies: ["HTML", "CSS", "Javascript", "React JS"],
+    },
   {
   title: "Exoria",
   image: exoria,
