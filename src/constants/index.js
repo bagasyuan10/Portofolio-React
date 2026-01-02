@@ -55,7 +55,7 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Now",
+    year: "2024 2025",
     role: "Admin HKI (Hak Kekayaan Intelektual)",
     company: "Direktorat Inovasi UM",
     description: `As an Intellectual Property Rights (IPR) Admin at the Innovation Directorate Building, State University of Malang (UM), I am responsible for managing data filing related to student IPR submissions. My duties include collecting, verifying, and storing documents neatly, both in physical and digital forms, to ensure completeness and administrative order. I also coordinate with students to provide submission guidance, monitor the status of submissions to certification, and work with the Innovation Directorate team to ensure the process runs smoothly.`,
